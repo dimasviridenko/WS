@@ -1,0 +1,82 @@
+body, html {
+    min-height: 100%;
+    height: 100%;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT-Sans-Regular', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-top {
+    margin:25px 15% 0 10%;
+    font-size: 24px;
+    text-align: center; 
+}
+.header-top img{
+    max-width: 800px;
+    max-height: 100px;
+}
+.block2 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-image: url(../images/baby.jpg); 
+    background-size: cover;
+}
+.counter-info p{
+    margin: 10px auto;
+    font-size: 14px;
+    font-family: 'PT-Sans-Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.counter-info h1{
+    margin: 35px auto;
+    font-size: 24px;
+    font-family: 'PT-Sans-Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.counter {
+    margin: 14px auto 0;
+    width: 800px;
+    position: relative;
+    padding: 10px;
+}
+.counter > img {
+    display: inline-block;
+    padding: 0;
+    width: 150px;
+    height: 250px;
+    text-align: center;
+    margin: 0px;
+    margin-left: 310px;
+}
+.counter-answer{
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 24px;
+    float: left;
+}
+.counter-answer a{
+    text-decoration: none;
+    margin-left: 50px;
+}
+.counter-answer a:hover {
+    font-size: 28px;
+    color:white;
+    font-weight: bold;
+    background-color: #0a3656;
+    border: 1px solid red;
+}

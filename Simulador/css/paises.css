@@ -1,0 +1,52 @@
+body, html {
+    min-height: 100%;
+    height: 100%;
+}
+p, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT-Sans-Regular', sans-serif;
+    background-image: url(../images/baby.jpg); 
+    background-size: cover;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+
+}
+.block {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.header-top {
+    margin:25px 20% 0 15%;
+    font-size: 24px;
+    text-align: center; 
+}
+.header-top img{
+    max-width: 800px;
+    max-height: 100px;
+}
+.table-info{
+        margin: 0 auto 25px auto;
+}
+.table1,
+.table2{
+      margin: 5% 5% 3% 5%; 
+      float: left; 
+}
+.block h1{
+    margin: 0 20%;
+    font-size: 24px;
+    font-family: 'PT-Sans-Bold', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    float: none; 
+}

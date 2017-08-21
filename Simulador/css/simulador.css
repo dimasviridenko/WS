@@ -1,0 +1,127 @@
+body, html {
+    min-height: 100%;
+    height: 100%;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT-Sans-Regular', sans-serif;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-top {
+    margin:25px 15% 0 10%;
+    font-size: 24px;
+    text-align: center; 
+}
+.header-top img{
+    max-width: 800px;
+    max-height: 100px;
+}
+.block2 {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    background-image: url(../images/baby.jpg);
+    background-size: cover;
+}
+.counter-info{
+    text-transform: uppercase;
+}
+.counter-info h1{
+    margin:55px 15% 0 10%;
+    font-size: 24px;
+    font-family: 'PT-Sans-Bold', sans-serif;
+    text-align: center;
+}
+.counter {
+    margin: 55px auto;
+    width: 1200px;
+}
+.counter > img {
+    display: inline-block;
+    padding: 0;
+    width: 120px;
+    height: 190px;
+    text-align: center;
+    margin: 0px;
+    margin-left: 100px;
+}
+.counter > img:nth-child(4) {
+    width: 70px;
+    height: 190px;
+}
+.counter > img:nth-child(5) {
+    width: 70px;
+    height: 175px;
+}
+.counter-answer{
+    font-weight: bold;
+    width: 1200px;
+    margin-top: 15px;
+}
+.counter > div > a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    width: 170px;
+    padding: 0;
+    text-align: center;
+    margin-left: 70px;
+}
+.counter > div > a:nth-child(2) {
+    margin-left:50px;
+}
+.counter > div > a:nth-child(3) {
+    margin-left:60px;
+}
+.counter > div > a:nth-child(4) {
+    margin-left:20px;
+}
+.counter > div > a:nth-child(5) {
+    margin-left:10px;
+}
+.counter > div > a:hover {
+    font-size: 20px;
+    color:white;
+    background-color: #0a3656;
+    border: 1px solid red;
+}
+/*FOOTER*/
+.try-it-info {
+    font-family: 'PT-Sans-Regular', sans-serif;
+    height: 150px;
+    width: 1000px; 
+    float: left;
+    margin-left: 205px;
+    margin-top: 20px;
+}
+.try-it-info form {
+    margin: 70px 0px 20px 0px; 
+    float: right;
+}
+.try-it-info input[type="submit"] {
+    font-family: 'PT-Sans-Bold', sans-serif;
+    float: right;
+    width: 250px;
+    height: 50px;
+    background-color: #0a3656;
+    font-size: 30px ;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    border-bottom: 2px solid #000000; 
+    border-radius: 50px 50px;
+}
+.try-it-info input[type="submit"]:hover {
+    background-color: #000000;
+    color:red;
+    cursor:pointer;
+}

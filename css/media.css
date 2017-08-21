@@ -1,0 +1,234 @@
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Large devices (large desktops) */
+@media only screen and (max-width: 1200px) {
+    body {
+        font-family:'Arial', sans-serif; 
+        font-size: 12px;
+    }
+    .work_descr h4 {
+        font-size: 14px;
+    }
+    .work_descr cite {
+        padding-right: 10px;
+    }
+}
+/* Medium devices (desktops) */
+@media only screen and (max-width: 992px) { 
+    body {
+        font-size: 10px;
+    }
+    .navbar-header img{
+        width: 80%;
+    }
+    .navbar-brand {
+        padding: 0; 
+        margin: 0;
+        margin-top:25px;
+    }
+    .menu li {
+        display: inline-block;
+        padding: 0px 5px;
+        text-align:center;
+    }
+    .work_descr h4 {
+        font-size: 20px;
+    }
+    .work_descr cite {
+        font-size: 16px;
+    }
+}
+/* Small devices (tablets) */
+@media only screen and (max-width: 768px) { 
+    .animated{
+    /* CSS transitions */
+        -o-transition-property:none !important;
+        -moz-transition-property:none !important;
+        -ms-transition-property:none !important;
+        -webkit-transition-property:none !important;
+        transition-property:none !important;
+        /* CSS transforms */
+        -o-transform:none !important;
+        -moz-transform:none !important;
+        -ms-transform:none !important;
+        -webkit-transform:none !important;
+         transform:none !important;
+         /* CSS animation */
+        -o-animation:none !important;
+        -moz-animation:none !important;
+        -ms-animation:none !important;
+        -webkit-animation:none !important;
+         animation: none !important;
+    }  
+    header{
+        height: 80px;
+    }
+    nav{
+        height: 45px;
+        line-height: 45px;
+        background-color: #0a3656;
+    }
+    .navbar-header{
+        height: 70px;
+    }
+    .navbar-header img{
+        width: 80%;
+        margin-left: 10px;
+    }
+    .navbar-brand {
+        padding: 0; 
+        margin: 0;
+        margin-top:0px;
+    }  
+    .top-line{
+        display:none;
+    }
+    .logo{
+        padding-top: 15px;
+    }
+    .menu_btn{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #e84545;
+        color: #fff;
+    }
+    .menu_btn span{
+        top:-12px;
+    }
+    #top_menu{
+        background-color: #2e2e48;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+        font-size: 16px;
+    }
+    .menu li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .work_descr h4 {
+       font-size: 18px;
+    }
+    .work_descr cite {
+       font-size: 14px;
+    }
+ } 
+/* Extra Small devices (mpbile)*/
+@media only screen and (max-width: 480px) {
+    header {
+        height: 70px;
+    }
+    nav{
+        height: 30px;
+        line-height: 30px;
+        background-color: #0a3656;
+    } 
+    .top-line{
+        display:none;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .menu_btn{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #e84545;
+    }
+    .menu_btn span{
+        top:-2px;
+    }
+    #top_menu{
+        background-color: #2e2e48;
+        padding: 20px 0px;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+    }
+    .menu li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .title_block{
+        margin-top: 100px;
+    }
+	.title_block h1{
+        font-size: 30px;
+    }
+    .title_block p{
+        font-size: 14px;
+    }
+    .work_descr h4 {
+        font-size: 12px;
+    }
+    .work_descr cite {
+        font-size: 10px;
+    }
+ }
+/* Custom */
+@media only screen and (max-width: 320px) { 
+    header {
+        height: 80px;
+    }
+    .navbar-header{
+        height: 80px;
+    }
+	nav{
+        height: 30px;
+        line-height: 30px;
+    }
+    .top-line{
+        display:none;
+    }
+    .logo{
+        padding-top: 15px;
+    }
+    .menu_btn{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background-color: #e84545;
+    }
+    .menu_btn span{
+        top:-5px;
+    } 
+    #top_menu{
+        background-color: #2e2e48;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+    }
+    .menu li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    .title_block h1{
+        font-size: 30px;
+    }
+    .title_block p{
+        font-size: 14px;
+    }
+    .work_descr h4 {
+        font-size: 8px;
+    }
+    .work_descr cite {
+        font-size: 8px;
+    }
+ }
+
+
+
+
+
+
